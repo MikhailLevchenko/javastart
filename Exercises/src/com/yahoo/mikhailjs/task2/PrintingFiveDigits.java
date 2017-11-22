@@ -23,12 +23,12 @@ public class PrintingFiveDigits {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("*Prints the five digits number\n"
-						   + "*or last five digits :)");
+				   + "*or last five digits :)");
 		System.out.println(" Enter the number:");
 		number = sc.nextInt();
 		fiveDigits = Math.abs(number % 100000);
 		System.out.println("So I can print this " + fiveDigits
-						   + ", from Yours " + number + " number.");
+				   + ", from Yours " + number + " number.");
 		System.out.println(fiveDigits / 10000);
 		System.out.println(fiveDigits / 1000 % 10);
 		System.out.println(fiveDigits / 100 % 10);
