@@ -45,7 +45,7 @@ public class ApartmentLocationInHouse {
 			System.out.println(String.format("Entrance %d floor %d.",
 					entrance, floor));
 		} else {
-			System.out.println("Wrong aparnment number.");
+			System.out.println("Wrong apartment number.");
 		}
 	}
 
